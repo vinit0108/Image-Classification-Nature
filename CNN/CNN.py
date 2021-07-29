@@ -13,7 +13,7 @@ validation_data_dir = '/home/vinit0108/Desktop/ML_FN/datasets/test'
 nb_train_samples = 991
 nb_validation_samples = 16
 epochs = 
-batch_size = 16
+batch_size = 32
 
 if K.image_data_format() == 'channels_first':
     input_shape = (3, img_width, img_height)
